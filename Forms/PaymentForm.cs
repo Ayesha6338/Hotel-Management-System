@@ -39,7 +39,7 @@ namespace HotelManagementSystem.Forms
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
-
+        // CRUD operations for successful payments
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtCustomer.Text))
