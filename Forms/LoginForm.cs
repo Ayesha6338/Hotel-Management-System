@@ -14,7 +14,7 @@ namespace HotelManagementSystem.Forms
             InitializeComponent();
             _userRepository = new UserRepository();
         }
-
+        //username=admin & password=admin123
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtUsername.Text))
