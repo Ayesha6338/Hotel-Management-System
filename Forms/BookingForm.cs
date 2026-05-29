@@ -24,7 +24,7 @@ namespace HotelManagementSystem.Forms
             foreach (var b in bookings)
                 dataGridView1.Rows.Add(b.Id, b.CustomerName, b.RoomNumber, b.Days);
         }
-
+       // CRUD operations for room booking
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtCustomer.Text))
