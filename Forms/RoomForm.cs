@@ -24,6 +24,7 @@ namespace HotelManagementSystem.Forms
             foreach (var r in rooms)
                 dataGridView1.Rows.Add(r.Id, r.RoomNumber, r.RoomType, r.RoomStatus);
         }
+        // CRUD operations for managing Rooms
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
